@@ -28,8 +28,3 @@ pip install -r requirements.txt
 ```bash
 jupyter notebook classification.ipynb
 ```
-
-## Notes
-
-- If you want to upload this repo to GitHub, clear notebook outputs first to avoid bloating the repository and making diffs hard to review.
-- The model checkpoint file is 43 MB, which is below GitHub's 100 MB soft limit, but storing binary weights directly in Git is not ideal. Consider removing it from version control and hosting it separately if the repository is intended to stay lightweight.
