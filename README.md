@@ -2,12 +2,6 @@
 
 This repository contains a Jupyter notebook for ResNet-based image classification and a pretrained model checkpoint.
 
-## Recommended Git setup
-
-- Keep `classification.ipynb` in the repository after clearing notebook outputs.
-- Do not commit large binary model checkpoints unless you need them in the repo.
-- Use the `.gitignore` included here to exclude generated files and the model weights file.
-
 ## Files
 
 - `classification.ipynb` — Jupyter notebook with model definition, training, and evaluation.
